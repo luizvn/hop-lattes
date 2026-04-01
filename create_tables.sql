@@ -15,4 +15,3 @@ nomeArtigo TEXT NOT NULL,
  PRIMARY KEY (producoes_id),
 CONSTRAINT fkey FOREIGN KEY ( pesquisadores_id)
  REFERENCES pesquisadores (pesquisadores_id) ON UPDATE NO ACTION ON DELETE NO ACTION);
-
